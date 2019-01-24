@@ -23,7 +23,7 @@ logstash:
     max-size: "50m"
     max-file: "100"
   ports:
-    - "5140:5140/udp"
+    - "5044:5044/udp"
   links:
     - elasticsearch
 kibana:
